@@ -2,7 +2,7 @@
 
 ![Captura de tela da aplicação](./src/assets/website.png)
 
-[Link para visualização:]()
+[Link para visualização:](https://rick-and-morty-eight-orpin.vercel.app)
 
 ## Descrição do projeto
 
