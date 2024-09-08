@@ -1,0 +1,124 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    position: relative;
+    z-index: 2;
+}
+
+main {
+    background-image: url('/src/assets/FUNDO_2.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    flex: 1;
+}
+
+footer {
+    background-color: #151916;
+    padding: 1.25rem;
+    color: white;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+.footer-stats {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.stats {
+    font-weight: bold;
+    color: #008000;
+    margin: 0.5rem;
+}
+
+.creditos {
+    color: #008000;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+#color-text {
+    color: #008000;
+    font-size: 3.750rem;
+    font-weight: bold;
+}
+
+.input-css {
+    border-color: #008000 !important;
+    border-width: 0.0625rem !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+#searchButton {
+    border-color: #008000 !important;
+    border-width: 0.0625rem !important;
+}
+
+#searchButton:hover {
+    background-color: #008000;
+    color: white;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.25rem;
+    justify-content: center;
+}
+
+.pagination-container {
+    margin-top: 1.25rem;
+    text-align: center;
+    margin-bottom: 62.5rem;
+}
+
+.pagination-button {
+    background-color: #008000 !important;
+    color: #fff !important;
+    border: none !important;
+    padding: 0.625rem 1.25rem !important;
+    border-radius: 0.3125rem !important;
+    font-size: 1rem !important;
+}
+
+.pagination-button:hover {
+    background-color: #105718 !important;
+}
+
+.pagination-button:disabled {
+    background-color: #c0c0c0 !important;
+}
+
+#modalImage {
+    border-radius: 0.3125rem !important;
+}
+
+.modal-dialog {
+    max-width: 31.25rem !important;
+    margin: 1.75rem auto !important;
+}
+
+.modal-content {
+    border-radius: 0.625rem !important;
+}
+
+.modal-body {
+    padding: 1.25rem !important;
+}
+
+#pagination-info {
+    color: #008000;
+}
